@@ -1,0 +1,134 @@
+body{
+  background-image: url(../img/PALM\ TREES\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px 500px 
+}
+nav{
+  height: 40px;
+  width: 100vw;
+  border: 10px solid rgb(199, 74, 113);
+  position: sticky;
+  top: 5PX;
+
+}
+li{
+display: inline-block ;
+}
+  li a{
+  word-spacing:  50px;
+  text-decoration: none;
+  padding: 2px;
+  color: blue;
+} 
+ul{
+    background-color: pink;
+    text-align: center;
+    position: sticky ;
+    top:0px;
+}  
+li a:hover{
+  background-color:rgb(98, 94, 94);
+  color: rgb(10, 9, 9);
+} 
+li a:link{
+  color: red;
+}
+li a:visited{
+  color: purple;
+}
+li a:active{
+  color: yellow;
+}
+.box{
+  width: 600px;
+  height: auto;
+  margin-top: 40px;
+  color: white;
+  margin-left: 120PX;
+}
+.space{
+  height: 4000px;
+  width: 200px;
+}
+article{
+  color: rgb(251, 5, 226);
+  padding-top: 10%;
+  text-align: center;
+  font-weight: bolder;
+}
+.p1{
+color: white;
+}
+.p2{ 
+  color: white;
+}
+.gtaimg{
+  width: 100px; 
+}
+aside{
+  height: 150px;
+  width: 150px;
+  border-color: red;
+  border: 10px solid pink;
+  float: right;
+  margin: 0;
+  font-size: xx-small;
+  background-color: pink;
+  font-weight:bolder
+}
+h5{
+  font-size: larger
+}
+
+footer{
+  padding-top: 1in;
+}
+.p3{
+  color: blue;
+  text-align:center;
+  font-size: larger;
+  font-weight: bolder;
+}
+.fbisuv{
+  width: 75px;
+}
+.fbicar{
+  width: 75px;
+}
+.hummer{
+  width: 75px;
+}
+.lambo{
+  width: 75px;
+}
+
+
+
+
+.phone{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color:gold;
+  margin: 0;
+  text-align: center;
+}
+.email{
+  color:gold;
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-align:center;
+}
+.fblogo{
+  text-align: center;
+}
+.aboutme{
+  font-weight: 900;
+  margin: 50px;
+  background-color: rgb(247, 104, 211);
+}
+
+.pt{
+  background-color: rgb(247, 104, 211);
+}
+
