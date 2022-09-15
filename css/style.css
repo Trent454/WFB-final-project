@@ -1,16 +1,18 @@
 body{
-background-image: .;
+  background-image: url(../PALM\ TREES\ 4.jpg);
   background-repeat: no-repeat;
-  font-size: xx-large;
-  background-size: 1200px 500px 
+  
+  background-size: cover;
 }
-nav{
+header{
   height: 40px;
   width: 100vw;
-  border: 10px solid rgb(199, 74, 113);
   position: sticky;
   top: 5PX;
 
+}
+.heroimg{
+ text-align: center;
 }
 li{
 display: inline-block ;
@@ -63,9 +65,7 @@ color: white;
 .p2{ 
   color: white;
 }
-.gtaimg{
-  width: 20% 
-}
+
 aside{
   height: 150px;
   width: 150px;
@@ -85,29 +85,6 @@ h5{
   text-align:center;
   font-size: larger;
   font-weight: bolder;
-}
-.fbisuv{
-  width: 75px;
-}
-.fbicar{
-  width: 75px;
-}
-.hummer{
-  width: 75px;
-}
-.lambo{
-  width: 75px;
-}
-
-
-
-
-
-
-
-
-body{
-    
 }
 .container {
     border-radius: 5px;
