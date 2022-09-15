@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../final-project/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>CONTACT</title>
 </head>
 <body>
     <header>
         <div>
              <ul>          
-                <li><a href="../index.html/index.html">HOME</a></li>
-                <li><a href="../HTML/about.html">ABOUT</a></li>
-                <li><a href="../HTML/contact.html">CONTACT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul> 
         </div>          
  </header>
-    <h1 class="phone">Trent 559-392-5888</h1> 
-    <a href="https://www.yahoo.com/"><h2 class="email">tmorris_007@yahoo.com</h2></a>
-    <div class="fblogo">
-        <a href="https://www.facebook.com/buckluck007/"><IMG><img src="../img/download.webp" alt="Facebook logo with link"></a>
-    </div>
-    
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </body>
 </html>

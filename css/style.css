@@ -1,7 +1,8 @@
 body{
-  background-image: url(../img/PALM\ TREES\ 4.jpg);
+background-image: .;
   background-repeat: no-repeat;
-  background-size: 1000px 500px 
+  font-size: xx-large;
+  background-size: 1200px 500px 
 }
 nav{
   height: 40px;
@@ -63,7 +64,7 @@ color: white;
   color: white;
 }
 .gtaimg{
-  width: 100px; 
+  width: 20% 
 }
 aside{
   height: 150px;
@@ -78,10 +79,6 @@ aside{
 }
 h5{
   font-size: larger
-}
-
-footer{
-  padding-top: 1in;
 }
 .p3{
   color: blue;
@@ -105,30 +102,38 @@ footer{
 
 
 
-.phone{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-  color:gold;
-  margin: 0;
-  text-align: center;
-}
-.email{
-  color:gold;
-  font-size: 30px;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  text-align:center;
-}
-.fblogo{
-  text-align: center;
-}
-.aboutme{
-  font-weight: 900;
-  margin: 50px;
-  background-color: rgb(247, 104, 211);
-}
 
-.pt{
-  background-color: rgb(247, 104, 211);
-}
 
+
+
+body{
+    
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+    }
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
