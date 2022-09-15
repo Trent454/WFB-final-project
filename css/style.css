@@ -1,7 +1,6 @@
 body{
   background-image: url(../PALM\ TREES\ 4.jpg);
   background-repeat: no-repeat;
-  
   background-size: cover;
 }
 header{
@@ -65,7 +64,6 @@ color: white;
 .p2{ 
   color: white;
 }
-
 aside{
   height: 150px;
   width: 150px;
