@@ -64,11 +64,24 @@ color: pink;
 .p2{ 
   color: pink;
 }
+<<<<<<< HEAD
 .footer{
   height: 25%;
   width: 100vw;
   font-weight:bold;
   padding-left: -15px;
+=======
+aside{
+  height: 150px;
+  width: 150px;
+  border-color: red;
+  border: 10px solid pink;
+  float: right;
+  margin: 0;
+  font-size: xx-small;
+  background-color: pink;
+  font-weight:bolder
+>>>>>>> 633562e86cbc359aea84383d10dd5eab4685667c
 }
 h5{
   font-size: larger
