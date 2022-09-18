@@ -8,7 +8,6 @@ header{
   width: 100vw;
   position: sticky;
   top: 5PX;
-
 }
 .heroimg{
  text-align: center;
@@ -64,13 +63,11 @@ color: pink;
 .p2{ 
   color: pink;
 }
-<<<<<<< HEAD
 .footer{
   height: 25%;
   width: 100vw;
   font-weight:bold;
   padding-left: -15px;
-=======
 aside{
   height: 150px;
   width: 150px;
@@ -81,7 +78,6 @@ aside{
   font-size: xx-small;
   background-color: pink;
   font-weight:bolder
->>>>>>> 633562e86cbc359aea84383d10dd5eab4685667c
 }
 h5{
   font-size: larger
@@ -91,7 +87,7 @@ h5{
 }
 .container{
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: grey;
   padding: 20px;
   }
   input[type=submit]:hover {
