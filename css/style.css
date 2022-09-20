@@ -80,7 +80,7 @@ aside{
   background-color: pink;
   font-weight:bolder
 }
-h3{
+h1{
   color: pink;
 }
 h5{
@@ -118,5 +118,7 @@ input[type=text], select, textarea {
 footer{
   padding: 0;
   margin-top: 5in;
+  background-color: rgb(128, 103, 103);
+  opacity: .7;
 
 }
