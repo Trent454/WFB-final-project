@@ -64,13 +64,7 @@ color: pink;
 .p2{ 
   color: pink;
 }
-<<<<<<< HEAD
-.footer{
-  height: 25%;
-  width: 100vw;
-  font-weight:bold;
-  padding-left: -15px;
-=======
+
 aside{
   height: 150px;
   width: 150px;
@@ -81,7 +75,9 @@ aside{
   font-size: xx-small;
   background-color: pink;
   font-weight:bolder
->>>>>>> 633562e86cbc359aea84383d10dd5eab4685667c
+}
+h3{
+  color: pink;
 }
 h5{
   font-size: larger
@@ -114,4 +110,9 @@ input[type=text], select, textarea {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+footer{
+  padding: 0;
+  margin-top: 5in;
+
 }
