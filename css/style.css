@@ -5,12 +5,11 @@ body{
 }
 header{
   height: 40px;
-  width: 100vw;
+  width: 100%;
   position: sticky;
   top: 5PX;
 
 }
-
 .heroimg{
  text-align: center;
 }
@@ -26,8 +25,6 @@ display: inline-block ;
 ul{
   background-color: pink;
   text-align: center;
-  position: sticky ;
-  top:0px;
 }  
 li a:hover{
   background-color:rgb(98, 94, 94);
@@ -90,8 +87,8 @@ h5{
   color: pink;
 }
 .container{
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 0px;
+  background-color: #f545b7;
   padding: 20px;
   }
   input[type=submit]:hover {
@@ -122,3 +119,40 @@ footer{
   opacity: .7;
 
 }
+
+@media (max-width: 1022px) {
+  .container{
+      width: 60%;
+      margin: 4%;
+  }
+}
+
+@media (max-width:1083px){
+  .container{
+      width: 60%;
+      margin: 4%;
+  }
+
+}
+
+
+@media (max-width: 120%){
+
+  .container{
+      width: 100%;
+      margin: 0 0 4% 0;
+  }
+
+  .container{
+      width: 100%;
+      margin: 0;
+  }
+
+
+
+
+
+
+
+}
+  
