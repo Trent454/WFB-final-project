@@ -70,10 +70,6 @@ font-weight: bolder;
 .p2{ 
   color: pink;
 }
-
-article{
-
-}
 h1{
   color: pink;
 }
@@ -112,7 +108,7 @@ footer{
 .spacer{
   width: 10px;
   height: 20px;
-  background-color: #45a049;
+
 }
 
 @media (max-width: 1022px) {
