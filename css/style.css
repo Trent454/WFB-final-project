@@ -1,5 +1,5 @@
 body{
-  background-image: url(../PALM\ TREES\ 4.jpg);
+  background-image: url(../palm\ trees\ 4;26am.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9,6 +9,11 @@ header{
   position: sticky;
   top: 5PX;
 
+}
+.aboutme{
+  font-family: Arial, Helvetica, sans-serif;
+  color: palevioletred;
+  background-color:pink ;
 }
 .heroimg{
  text-align: center;
@@ -51,10 +56,11 @@ li a:active{
   width: 200px;
 }
 article{
-  color: rgb(251, 5, 226);
+  color: pink;
   padding-top: 10%;
   text-align: center;
   font-weight: bolder;
+  font-size: larger;
 }
 .p1{
 color: rgb(206, 37, 116);
@@ -62,28 +68,13 @@ font-weight: bolder;
 }
 
 .p2{ 
-  color: rgb(206, 37, 116);
-  font-weight: 900;
-}
-
-aside{
-  height: 150px;
-  width: 150px;
-  border-color: red;
-  border: 10px solid pink;
-  float: right;
-  margin: 0;
-  font-size: xx-small;
-  background-color: pink;
-  font-weight:bolder
-}
-h1{
   color: pink;
 }
-h5{
-  font-size: larger
+
+article{
+
 }
-.h5tag{
+h1{
   color: pink;
 }
 .container{
@@ -113,11 +104,15 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 footer{
-  padding: 0;
-  margin-top: 5in;
-  background-color: rgb(128, 103, 103);
-  opacity: .7;
+  position: fixed; bottom: 0; width: 100%; height: 20px;
+  background: pink; 
+  text-align: center;
 
+}
+.spacer{
+  width: 10px;
+  height: 20px;
+  background-color: #45a049;
 }
 
 @media (max-width: 1022px) {
@@ -148,11 +143,6 @@ footer{
       margin: 0;
   }
 
-
-
-
-
-
-
 }
+
   
